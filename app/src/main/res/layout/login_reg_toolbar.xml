@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/customToolbar_Id"
+    android:layout_marginEnd="10dp" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/languageButton_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:background="@drawable/lng_button"
+        android:text="বাংলা"
+        android:textColor="@color/PrimaryColor" />
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/login_reg_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/bkash_logo"
+                android:layout_marginTop="40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enter mobile number and PIN"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for Registration"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Mobile Number"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regNumber_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34B9B9B9"
+            android:hint="01XXXXXXXXX"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Enter PIN"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regiPIN_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34B9B9B9"
+            android:hint="Enter your PIN"
+            android:inputType="numberPassword"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By proceeding you agree to our "
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Terms_and_conditions"
+                android:textColor="@color/PrimaryColor"
+                android:textStyle="bold"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/regiNextButton_Id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/darkGray"
+            android:drawableEnd="@drawable/ic_forward"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Next"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

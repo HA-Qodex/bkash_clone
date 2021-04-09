@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396142122009",
+    "firebase_url": "https://bkash-a1728.firebaseio.com",
+    "project_id": "bkash-a1728",
+    "storage_bucket": "bkash-a1728.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396142122009:android:3b5915ae7a2ad030d0c688",
+        "android_client_info": {
+          "package_name": "com.sigma.bkash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396142122009-llep3o0qk73linv4ol0fr1t15b6jikl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDankRUo4MTdv766ORjmybpptBoqrQvDcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396142122009-llep3o0qk73linv4ol0fr1t15b6jikl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

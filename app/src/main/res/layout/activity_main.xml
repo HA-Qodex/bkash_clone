@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/languageButton_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:autofillHints="@string/app_name"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lng_button"
+            android:text="বাংলা"
+            android:textColor="@color/PrimaryColor" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/bkash_logo" />
+
+            <ImageView
+                android:id="@+id/logo_Id"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/qr" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Log In"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to your bKash account"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Account Number"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/accNumber_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34B9B9B9"
+            android:hint="Enter bKash Number"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:text="bKash PIN"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/forgotPIN_Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:text="Forgot PIN?"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/pin_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34B9B9B9"
+            android:hint="Enter bKash PIN"
+            android:inputType="numberPassword"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/registration_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New user? Get registered"
+            android:textSize="12sp"
+            android:textColor="@color/PrimaryColor"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextButton_Id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/darkGray"
+            android:drawableEnd="@drawable/ic_forward"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Next"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</LinearLayout>
