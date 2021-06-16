@@ -6,5 +6,6 @@ Bkash clone UI
 * Text watcher
 
 # Screenshot
-![](Images/1.png)
-![](Images/2.png)
+<img src="Images/1.png" width="250" height="480">
+<img src="Images/2.png" width="250" height="480">
+
